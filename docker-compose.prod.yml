@@ -1,0 +1,19 @@
+services:
+  cookitech-website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9001:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_TELEMETRY_DISABLED=1
+      - PORT=3000
+    restart: unless-stopped
+    container_name: cookitech-website
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge 
