@@ -19,9 +19,8 @@ export default function Home9({ onePage = false, dark = false }) {
     <>
       <hr className={`mt-0 mb-0 ${dark ? "white" : ""} `} />
       <section
-        className={`page-section scrollSpysection  ${
-          dark ? "bg-dark-1 light-content" : ""
-        } `}
+        className={`page-section scrollSpysection  ${dark ? "bg-dark-1 light-content" : ""
+          } `}
         id="about"
       >
         <div className="container position-relative">
@@ -33,15 +32,11 @@ export default function Home9({ onePage = false, dark = false }) {
                   About Studio
                 </h2>
                 <h3 className="section-title mb-30">
-                  We believe in creatives with a&nbsp;passion to smart design.
+                  We believe great products need real thinking beyond just prompts.
                 </h3>
                 <p className="text-gray mb-40">
-                  Etiam fermentum vehicula faucibus. Praesent ullamcorper urna
-                  id arcu molestie scelerisque. Sed imperdiet tristique mauris
-                  et faucibus. Maecenas semper augue non fringilla placerat.
-                  Curabitur luctus erat sit amet ultricies aliquam. Donec dictum
-                  convallis mauris et maximus. Nullam massa arcu, porta quis
-                  felis et, eleifend varius quam.
+                  AI makes it easy to spin up a prototype. But building a product that grows, scales, and evolves? That takes more than just good prompts.
+                  At Cookietech, we combine the speed of AI with real engineering, thoughtful product design, and strategic execution. From architecture to deployment—we don’t just build quickly, we build for what’s next.
                 </p>
                 {/* Features List */}
                 <div className="row features-list mt-n20 mb-50 mb-sm-30">
@@ -183,9 +178,8 @@ export default function Home9({ onePage = false, dark = false }) {
         </div>
       </section>
       <section
-        className={`page-section ${
-          dark ? "bg-dark-1 bg-dark-alpha light-content" : "bg-light-alpha-90"
-        }  bg-scroll`}
+        className={`page-section ${dark ? "bg-dark-1 bg-dark-alpha light-content" : "bg-light-alpha-90"
+          }  bg-scroll`}
         style={{
           backgroundImage: "url(/assets/images/demo-slick/section-bg-1.jpg)",
         }}
@@ -193,9 +187,8 @@ export default function Home9({ onePage = false, dark = false }) {
         <Facts />
       </section>
       <section
-        className={`page-section  scrollSpysection  ${
-          dark ? "bg-dark-1 light-content" : ""
-        } `}
+        className={`page-section  scrollSpysection  ${dark ? "bg-dark-1 light-content" : ""
+          } `}
         id="services"
       >
         <div className="container position-relative">
@@ -206,11 +199,10 @@ export default function Home9({ onePage = false, dark = false }) {
                 Our Services
               </h2>
               <h3 className="section-title mb-30">
-                We provide the best development solutions.
+                Your End-to-End Tech, Product and Marketing Team.
               </h3>
               <p className="section-descr mb-50 mb-sm-40">
-                The power of design help us to solve complex problems and
-                cultivate business solutions.
+                No hiring. No ramp-up. Just a battle-tested team of engineers, designers, and product marketers—ready to validate, build, and scale your product from day one.
               </p>
               <div className="local-scroll">
                 {onePage ? (
@@ -262,9 +254,8 @@ export default function Home9({ onePage = false, dark = false }) {
       </section>
       <hr className={`mt-0 mb-0 ${dark ? "white" : ""} `} />
       <section
-        className={`page-section  scrollSpysection  ${
-          dark ? "bg-dark-1 light-content" : ""
-        } `}
+        className={`page-section  scrollSpysection  ${dark ? "bg-dark-1 light-content" : ""
+          } `}
         id="portfolio"
       >
         <div className={`bg-shape-1 ${dark ? "opacity-003" : ""} `}>
@@ -300,9 +291,8 @@ export default function Home9({ onePage = false, dark = false }) {
       <section className="page-section pt-0 pb-0">
         <div className="container">
           <div
-            className={`small-section ${
-              dark ? "bg-dark-2 light-content" : "bg-gray-light-1"
-            }  ps-4 ps-lg-0 pe-4 pe-lg-0 round position-relative overflow-hidden`}
+            className={`small-section ${dark ? "bg-dark-2 light-content" : "bg-gray-light-1"
+              }  ps-4 ps-lg-0 pe-4 pe-lg-0 round position-relative overflow-hidden`}
           >
             {/* Decoration Circles */}
             <div className="decoration-12" />
@@ -355,9 +345,8 @@ export default function Home9({ onePage = false, dark = false }) {
       </section>
       <hr className={`mt-0 mb-0 ${dark ? "white" : ""} `} />
       <section
-        className={`page-section  scrollSpysection  ${
-          dark ? "bg-dark-1 light-content" : ""
-        } `}
+        className={`page-section  scrollSpysection  ${dark ? "bg-dark-1 light-content" : ""
+          } `}
         id="blog"
       >
         <div className={`bg-shape-3 ${dark ? "opacity-003" : ""} `}>
@@ -371,16 +360,14 @@ export default function Home9({ onePage = false, dark = false }) {
         <Blog />
       </section>
       <section
-        className={`page-section ${
-          dark ? "bg-dark-2 light-content" : "bg-gray-light-1"
-        }  overflow-hidden`}
+        className={`page-section ${dark ? "bg-dark-2 light-content" : "bg-gray-light-1"
+          }  overflow-hidden`}
       >
         <Newsletter />
       </section>
       <section
-        className={`page-section  scrollSpysection  ${
-          dark ? "bg-dark-1 light-content" : ""
-        } `}
+        className={`page-section  scrollSpysection  ${dark ? "bg-dark-1 light-content" : ""
+          } `}
         id="contact"
       >
         {dark ? <ContactDark /> : <Contact />}

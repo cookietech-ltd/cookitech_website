@@ -13,12 +13,7 @@ export default function Hero1() {
             <div className="col-md-10 offset-md-1 col-lg-6 offset-lg-0 d-flex align-items-center mb-md-60 mb-sm-30">
               <div className="w-100 text-center text-lg-start">
                 <h1 className="hs-title-10 mb-40 mb-sm-20 wow fadeInUp">
-                  Create your beautiful web presence
-                  <span className="visually-hidden">easily, faster, smart</span>
-                  <TypeWriter
-                    strings={["easily", "faster", "smart"]}
-                    colorClass="color-primary-1"
-                  />
+                  Launch Fast. Scale Smart. Your MVP, Ready in 60 Days
                 </h1>
                 <div className="row">
                   <div className="col-lg-10">
@@ -26,9 +21,8 @@ export default function Hero1() {
                       className="section-descr mb-50 mb-sm-40 wow fadeInUp"
                       data-wow-delay="0.15s"
                     >
-                      We are an award winning studio specializing in design and
-                      engineering. Our mission is to make work process
-                      meaningful.
+                      AI helps you start. We help you grow.
+                      At Cookietech, we guide your journey from idea to scalable product—deploying, monitoring, and improving every step of the way
                     </p>
                   </div>
                 </div>
@@ -39,33 +33,18 @@ export default function Hero1() {
                 >
                   <a
                     href="#contact"
+                    className="btn btn-mod btn-color btn-large btn-circle btn-hover-anim mb-xs-10 me-3"
+                  >
+                    <span>🎯 60-Min Free Call</span>
+                  </a>
+
+                  <a
+                    href="#ai-builder"
                     className="btn btn-mod btn-color btn-large btn-circle btn-hover-anim mb-xs-10"
                   >
-                    <span>Start a project</span>
+                    <span>🤖 Try AI Builder</span>
                   </a>
-                  <a
-                    href="#about"
-                    className="link-hover-anim ms-2 ms-sm-5 me-2"
-                    data-link-animate="y"
-                  >
-                    <span className="link-strong link-strong-unhovered">
-                      Learn more{" "}
-                      <i
-                        className="mi-arrow-right size-24"
-                        aria-hidden="true"
-                      ></i>
-                    </span>
-                    <span
-                      className="link-strong link-strong-hovered"
-                      aria-hidden="true"
-                    >
-                      Learn more{" "}
-                      <i
-                        className="mi-arrow-right size-24"
-                        aria-hidden="true"
-                      ></i>
-                    </span>
-                  </a>
+
                 </div>
               </div>
             </div>

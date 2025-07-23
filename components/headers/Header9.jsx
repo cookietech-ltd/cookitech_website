@@ -22,19 +22,14 @@ export default function Header9({ links }) {
       <div className="nav-logo-wrap position-static local-scroll">
         <a href="#top" className="logo">
           <Image
-            src="/assets/images/demo-slick/logo-dark.svg"
-            alt="Your Company Logo"
-            width={106}
-            height={36}
-            className="light-mode-logo"
-          />
-          <Image
-            src="/assets/images/demo-slick/logo-white.svg"
-            alt="Your Company Logo"
-            width={106}
-            height={36}
-            className="dark-mode-logo"
-          />
+  src="/assets/images/demo-slick/cookietech_logo.png"
+  alt="Cookietech Logo"
+  className="h-[40px] w-auto object-contain"
+  width={0}
+  height={0}
+  sizes="(max-width: 768px) 100px, 120px"
+/>
+
         </a>
       </div>
       {/* Mobile Menu Button */}
