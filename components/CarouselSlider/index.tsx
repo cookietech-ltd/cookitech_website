@@ -3,7 +3,7 @@ import { useAnimate } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Autoplay } from "swiper";
+import { Autoplay } from "swiper/modules";
 import images from "@/config/images";
 
 const slides = [0, 1, 2];
