@@ -19,22 +19,17 @@ export default function Header9({ links }) {
       {/* Logo  (* Add your text or image to the link tag. Use SVG or PNG image format. 
               If you use a PNG logo image, the image resolution must be equal 200% of the visible logo
               image size for support of retina screens. See details in the template documentation. *) */}
-      <div className="nav-logo-wrap position-static local-scroll">
+      <div className="nav-logo-wrap position-static local-scroll px-4 py-2">
         <a href="#top" className="logo">
           <Image
-            src="/assets/images/demo-slick/logo-dark.svg"
-            alt="Your Company Logo"
-            width={106}
+            src="/assets/images/demo-slick/cookietech_logo.png"
+            alt="Cookietech Logo"
+            className="h-[40px] w-auto object-contain"
+            width={100}
             height={36}
-            className="light-mode-logo"
+            sizes="(max-width: 768px) 100px, 120px"
           />
-          <Image
-            src="/assets/images/demo-slick/logo-white.svg"
-            alt="Your Company Logo"
-            width={106}
-            height={36}
-            className="dark-mode-logo"
-          />
+
         </a>
       </div>
       {/* Mobile Menu Button */}

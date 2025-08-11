@@ -161,30 +161,31 @@ export const services4 = [
 
 export const services5 = [
   {
-    caption: "Branding",
-    title: "Brand Strategy",
-    text: "Curabitur vel molestie dolor vulputate diam. Etiam ornare facilisis euismod cras blandit vel purus nec varius.",
-    delay: 0,
-  },
-  {
-    caption: "Mobile & Web",
-    title: "UI/UX Design",
-    text: "Quisque accumsan augue nec ligula gravida, eleifend volutpat augue luctus vulputate imperdiet quis sed odio.",
-    delay: 0.05,
-  },
-  {
-    caption: "Video & Animation",
-    title: "Motion Design",
-    text: "Maecenas finibus ipsum orci, sit amet eleifend purus rutrum fringilla. Nunc quis lobortis nulla.",
+    caption: "Validating Ideas",
+    title: "Validate Before You Build",
+    text: "We validate your vision through in-depth user research, market insights, and problem-solution fit—before a single line of code is written.",
     delay: 0.1,
   },
   {
-    caption: "Marketing",
-    title: "Research & Solutions",
-    text: "Cras nisl ex, fermentum id volutpat luctus, interdum luctus tortor. Nunc vestibulum accumsan.",
-    delay: 0.15,
+    caption: "UX & Prototyping",
+    title: "Design that Converts",
+    text: "Our designers craft intuitive, high-conversion experiences—shaped by real user data and brought to life in interactive prototypes.",
+    delay: 0.2,
+  },
+  {
+    caption: "Engineering at Scale",
+    title: "Robust, Scalable Systems",
+    text: "Real engineers. Real architecture. We build robust, scalable systems with solid DevOps practices to take your MVP from demo to deployment.",
+    delay: 0.3,
+  },
+  {
+    caption: "Product Marketing",
+    title: "Grow After Launch",
+    text: "We stay beyond launch—providing ongoing tech support, crafting perfect product positioning and marketing communications that drive revenue.",
+    delay: 0.4,
   },
 ];
+
 
 export const services6 = [
   {

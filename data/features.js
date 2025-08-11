@@ -105,18 +105,19 @@ export const features3 = [
 
 export const features4 = [
   {
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+    text: "Prototypes are easy. Scaling is hard we help you do both",
   },
   {
-    text: "Vivamus hendrerit eros vitae tincidunt vulputate.",
+    text: "You get a full-stack team: Engineers, PMs, DevOps",
   },
   {
-    text: "Aenean at bibendum enim. In auctor consectetur urna.",
+    text: "We think deeply before we build and stay with you after launch",
   },
   {
-    text: "Proin ut gravida lorem, quis scelerisque metus.",
+    text: "AI is a tool. You’re the vision. We make it real.",
   },
 ];
+
 
 export const features5 = [
   {
