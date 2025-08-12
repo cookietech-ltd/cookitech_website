@@ -92,7 +92,7 @@ export default function Hero2({ dark }) {
         <div className="col-lg-6 d-flex align-items-stretch">
           <div className="split-image-right rounded-0">
             <Image
-              src="/assets/images/demo-slick/hs-image-5.jpg"
+              src="/assets/images/demo-slick/ct-image-5.jpg"
               alt="Image Description"
               width={960}
               height={1080}

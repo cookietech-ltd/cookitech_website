@@ -35,7 +35,7 @@ export default function Hero1() {
               className="hs-image-3 wow fadeInLeft"
               data-wow-delay="0.8s"
               data-wow-offset={0}
-              src="/assets/images/demo-modern/hs-image-3.jpg"
+              src="/assets/images/demo-modern/ct-image-3.jpg"
               alt="Image Description"
               width={362}
               height={208}
